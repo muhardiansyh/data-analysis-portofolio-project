@@ -59,7 +59,7 @@ After calculating the scores, the segmentation phase grouped customers into stra
 
 - RFM Code Aggregation: The three numerical scores (R, F, M) were concatenated into a single, three-digit text string (e.g., "444") to create a unique identifier for the customer's score pattern.
 
-- VLOOKUP Segmentation: A dedicated Segmentation Matrix was established. The final customer segment (e.g., "Champions," "At Risk/Churning" "New Customers") was assigned using the VLOOKUP function, mapping the unique three-digit RFM code to the predefined business segment name. This proved the ability to efficiently scale segmentation logic without relying on complex array formulas.
+- Advanced Conditional Logic Segmentation: The final customer segment (e.g., "Champions," "At Risk/Churning") was determined and assigned using Advanced Conditional Logic. This involved implementing a series of Nested IF and AND Functions to map the unique three-digit RFM score combination (111-444) to 8 distinct business segments, demonstrating mastery of complex formula writing in Excel.
 
 ### 3.3. Dynamic Dashboard Control Implementation
 The project introduced advanced Excel controls to maximize dashboard interactivity and user experience, moving beyond standard slicers.
@@ -109,4 +109,5 @@ readme.md (This file): Documentation of the project's objectives, methodology, t
 RFM_UrbanMart_Transaction.xlsx: The final working Microsoft Excel file, which includes the raw data, the RFM_CALCULATION sheet with all scoring logic (e.g., VLOOKUP segmentation), and the interactive DASHBOARD ANALISIS sheet with dynamic controls.
 
 UrbanMart_Transactions.csv: The original, untouched source file used to ensure transparency and auditability of the data source.
+
 
